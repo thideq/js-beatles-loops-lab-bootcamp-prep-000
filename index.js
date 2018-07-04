@@ -39,11 +39,11 @@ johnLennonFacts(facts);
 function iLoveTheBeatles(n) {
   var myArray2 = [];
   do { 
-    myArray2.add(" I love the Beatles! ");
+    myArray2.add("I love the Beatles!");
     n++;
   }
   while (n<15);
-  console.log(myArray2);
+  return myArray2;
 }
 
 iLoveTheBeatles(10);
