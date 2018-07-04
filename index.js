@@ -16,7 +16,7 @@ function theBeatlesPlay(array1, array2) {
   var myArray = [];
   for (i=0; i<array1.length;i++) {
     myString = array1[i] + " plays " + array2[i]
-    myArray[i]=myString;
+    myArray.push(myString);
   }
   return myArray;
 }
@@ -27,7 +27,6 @@ console.log(myArray);
 
 function johnLennonFacts(array) {
   var i = 0;
-  console.log(array.length);
   while (i<array.length) {
     array[i] = array[i] + "!!!";
     i++;
