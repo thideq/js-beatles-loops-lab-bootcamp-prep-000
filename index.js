@@ -8,12 +8,9 @@ const facts = [
 
 var arrayOfMusicians = ['Mozart', 'Bach', 'Grieg'];
     arrayOfInstruments = ['Piano', 'Trumpet', 'Saxo'];
-    myArray = [];
-    myString = "Bonjour";
 
 function theBeatlesPlay(array1, array2) {
   var myArray = [];
-  var       i =  0 ;
   for (j=0; j<array1.length;j++) {
     myString = array1[j] + " plays " + array2[j]
     myArray.push(myString);
