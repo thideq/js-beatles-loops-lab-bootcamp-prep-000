@@ -46,4 +46,4 @@ function iLoveTheBeatles(n) {
   return myArray2;
 }
 
-iLoveTheBeatles(10);
+console.log(iLoveTheBeatles(10));
