@@ -14,6 +14,7 @@ var arrayOfMusicians = ['Mozart', 'Bach', 'Grieg'];
 function theBeatlesPlay(array1, array2) {
   // my function here
   var myArray = [];
+      i =       0 ;
   for (i=0; i<array1.length;i++) {
     myString = array1[i] + " plays " + array2[i]
     myArray.push(myString);
