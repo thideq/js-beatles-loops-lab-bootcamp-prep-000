@@ -18,9 +18,6 @@ function theBeatlesPlay(array1, array2) {
   return myArray;
 }
 
-theBeatlesPlay(arrayOfMusicians, arrayOfInstruments);
-//for (i=0;i<myArray.length-1;i++)
-console.log(myArray);
 
 function johnLennonFacts(array) {
   var i=0;
@@ -30,7 +27,6 @@ function johnLennonFacts(array) {
   } 
   return array;
 }
-johnLennonFacts(facts);
 
 function iLoveTheBeatles(n) {
   var myArray2 = [];
@@ -42,4 +38,3 @@ function iLoveTheBeatles(n) {
   return myArray2;
 }
 
-console.log(iLoveTheBeatles(10));
