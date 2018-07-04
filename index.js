@@ -11,7 +11,7 @@ var arrayOfMusicians = ['Mozart', 'Bach', 'Grieg'];
 
 function theBeatlesPlay(array1, array2) {
   var myArray = [];
-      myString ="";
+      myString ='';
   for (j=0; j<array1.length; j++) {
     myString = array1[j] + " plays " + array2[j]
     myArray.push(myString);
